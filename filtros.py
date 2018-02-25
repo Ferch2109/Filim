@@ -195,6 +195,23 @@ def mosaic():
 					image.itemset((x, y, 1), g)
 					image.itemset((x, y, 0), b)
 
+################## convolution filters #################
+
+def blur():
+	print('Not Yet :c')
+
+def motion_blur():
+	print('Not Yet :c')
+
+def border():
+	print('Not Yet :c')
+
+def sharpen():
+	print('Not Yet :c')
+
+def emboss():
+	print('Not Yet :c')
+
 def show():
 	cv2.imshow('image',image)
 	cv2.waitKey(0)
